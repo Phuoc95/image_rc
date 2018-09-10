@@ -18,7 +18,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Image resizeMode="cover"  style={{ tintColor: 'red',  width:200, height: 200, borderWidth: 1, borderRadius: 100 }}  source={require('./imgs/facebook.png')}></Image>
+        <Image resizeMode="cover"  style={{ width:200, height: 200, borderWidth: 1, borderRadius: 100 }}  source={{uri:'http://files.vforum.vn/2014/T09/img/vforum.vn-132749-24-canh-thien-nhien-dep-tren-the-gioi-185-1.jpg'}}></Image>
         {/* <Image source={require('./imgs/hinh2.jpg')}></Image> */}
       </View>
     );
